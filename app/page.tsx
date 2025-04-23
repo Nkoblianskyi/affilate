@@ -33,7 +33,7 @@ export default function Home() {
         type="organization"
         data={{
           url: "https://linksparkco.com",
-          logoUrl: "https://linkspark.com/logo.png",
+          logoUrl: "https://linksparkco.com/logo.png",
           email: "info@linkspark.com",
           areaServed: "Tel Aviv-Yafo, 6701203, Israel",
         }}
@@ -103,7 +103,7 @@ export default function Home() {
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 <div className="aspect-video w-full max-w-[550px]">
                   <Image
-                    src="/chatbot.png?height=400&width=600"
+                    src="/chatbot.png"
                     width={600}
                     height={400}
                     alt="Affiliate Marketing Concept"

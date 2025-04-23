@@ -46,7 +46,7 @@ export default function TestimonialSection() {
                       className="relative w-20 h-20 rounded-full overflow-hidden mb-4"
                     >
                       <Image
-                        src="/avatar.png?height=80&width=80"
+                        src="/avatar.png"
                         width={80}
                         height={80}
                         alt={testimonial.author}

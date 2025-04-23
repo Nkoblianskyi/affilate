@@ -38,7 +38,6 @@ export const metadata: Metadata = {
       "Earn money online through affiliate marketing with LinkSpark's innovative platform. Join for free today!",
     creator: "@linkspark",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

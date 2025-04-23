@@ -37,9 +37,8 @@ export default function Home() {
             "https://instagram.com/linkspark",
             "https://linkedin.com/company/linkspark",
           ],
-          telephone: "+972123456789",
           email: "info@linkspark.com",
-          areaServed: "Worldwide",
+          areaServed: "Tel Aviv-Yafo, 6701203, Israel",
         }}
       />
 

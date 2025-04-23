@@ -10,7 +10,7 @@ export default function TestimonialSection() {
   const testimonials = [
     {
       quote:
-        "LinkSpark has completely transformed my online business. I've been able to generate consistent income through their high-converting offers.",
+        "LinkSparkCo has completely transformed my online business. I've been able to generate consistent income through their high-converting offers.",
       author: "Marketing Professional",
       role: "Lifestyle Blogger",
     },
@@ -46,7 +46,7 @@ export default function TestimonialSection() {
                       className="relative w-20 h-20 rounded-full overflow-hidden mb-4"
                     >
                       <Image
-                        src="/placeholder.svg?height=80&width=80"
+                        src="/avatar.png?height=80&width=80"
                         width={80}
                         height={80}
                         alt={testimonial.author}

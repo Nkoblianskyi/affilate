@@ -32,7 +32,7 @@ export default function AboutPage() {
             </AnimateInView>
             <AnimateInView animation="slide-left" delay={0.3} className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/idea.png?height=550&width=550"
                 width={550}
                 height={550}
                 alt="About LinkSpark"

@@ -34,7 +34,7 @@ export default function RegisterPage() {
           <CardHeader>
             <CardTitle>Join LinkSparkCo Affiliate Network</CardTitle>
             <CardDescription>
-              Fill out the form below to create your account and start earning with LinkSpark
+              Fill out the form below to create your account and start earning with LinkSparkCo
             </CardDescription>
           </CardHeader>
           <CardContent>

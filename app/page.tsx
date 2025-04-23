@@ -103,7 +103,7 @@ export default function Home() {
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 <div className="aspect-video w-full max-w-[550px]">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/chatbot.png?height=400&width=600"
                     width={600}
                     height={400}
                     alt="Affiliate Marketing Concept"

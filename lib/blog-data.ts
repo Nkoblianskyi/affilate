@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: 8,
     excerpt:
       "Learn everything you need to know about affiliate marketing, from the basics to advanced strategies for maximizing your earnings.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/marketing.png?height=400&width=600",
     content: [
       "Affiliate marketing has become one of the most popular ways to earn passive income online. As digital consumption continues to grow, the opportunities for affiliate marketers are expanding rapidly. In this comprehensive guide, we'll explore everything you need to know to succeed in affiliate marketing in 2023.",
       "At its core, affiliate marketing is a performance-based marketing model where you earn commissions for promoting other companies' products or services. When someone makes a purchase through your unique affiliate link, you receive a percentage of the sale. It's a win-win situation: businesses gain exposure and sales, while you earn money for your marketing efforts.",
@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
     date: "April 22, 2025",
     readingTime: 6,
     excerpt: "Discover effective ways to monetize your content and diversify your income streams as a digital creator.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/planning.png?height=400&width=600",
     content: [
       "As a content creator, finding effective ways to monetize your work is essential for sustainability and growth. In this article, we'll explore ten proven monetization strategies that can help you generate income from your creative efforts.",
       "Affiliate marketing is one of the most accessible monetization methods for content creators. By promoting products or services and earning a commission on sales, you can generate passive income without creating your own products. The key to success is promoting items that genuinely align with your audience's interests and needs.",
@@ -59,7 +59,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: 7,
     excerpt:
       "Learn how to drive targeted traffic to your affiliate offers with these proven techniques that work in today's digital landscape.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/data.png?height=400&width=600",
     content: [
       "Traffic is the lifeblood of any affiliate marketing business. Without a steady stream of visitors to your content, even the best affiliate offers won't generate significant income. In this article, we'll explore seven effective traffic generation techniques specifically tailored for affiliate marketers.",
       "Search Engine Optimization (SEO) remains one of the most valuable traffic sources for affiliate marketers. By optimizing your content for relevant keywords, you can attract highly targeted organic traffic. Focus on creating comprehensive, valuable content that answers searchers' questions. Pay attention to on-page SEO factors like title tags, meta descriptions, header tags, and internal linking. Building quality backlinks from reputable sites in your niche will also improve your search rankings.",
@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: 9,
     excerpt:
       "Discover proven strategies to optimize your conversion rates and maximize your affiliate marketing revenue.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/home.png?height=400&width=600",
     content: [
       "In affiliate marketing, driving traffic to your content is only half the battle. The real measure of success is how effectively you convert those visitors into customers who make purchases through your affiliate links. This is where Conversion Rate Optimization (CRO) becomes crucial.",
       "Conversion Rate Optimization is the systematic process of increasing the percentage of website visitors who take a desired action—in this case, clicking on your affiliate links and making purchases. Even small improvements in conversion rates can significantly impact your bottom line, often more than increasing traffic.",
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: 10,
     excerpt:
       "Master the essential SEO techniques that will help your affiliate content rank higher in search engines and attract more targeted traffic.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/form.png?height=400&width=600",
     content: [
       "Search Engine Optimization (SEO) is a critical skill for affiliate marketers looking to drive sustainable, targeted traffic to their content. While paid traffic can deliver quick results, organic search traffic often provides better long-term ROI and higher conversion rates. In this guide, we'll cover the fundamental SEO strategies that affiliate marketers should master.",
       "Keyword research forms the foundation of effective SEO. Start by identifying topics relevant to your niche and the products you promote. Use tools like Google Keyword Planner, Ahrefs, SEMrush, or Ubersuggest to find specific keywords with good search volume and manageable competition. For affiliate content, focus on commercial intent keywords like 'best [product],' '[product] review,' or 'how to choose [product].'",
@@ -124,7 +124,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: 8,
     excerpt:
       "Learn about the pitfalls that many affiliate marketers face and discover strategies to overcome these challenges for greater success.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/community.png?height=400&width=600",
     content: [
       "Affiliate marketing offers tremendous opportunities for generating income online, but the path to success is often littered with common mistakes that can hinder your progress. In this article, we'll explore these pitfalls and provide practical advice on how to avoid them.",
       "One of the most common mistakes is choosing the wrong niche. Many beginners select niches based solely on commission rates without considering their interest or expertise in the topic. This leads to creating inauthentic content that fails to connect with audiences. Instead, choose a niche that balances your passion, expertise, and profit potential. You'll create better content and sustain your motivation when you genuinely care about your subject matter.",
@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: 7,
     excerpt:
       "Discover effective content creation approaches that engage your audience and naturally lead to affiliate conversions.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/content.png?height=400&width=600",
     content: [
       "Content is the cornerstone of successful affiliate marketing. The quality, format, and strategy behind your content directly impact your ability to engage audiences and drive affiliate sales. In this article, we'll explore proven content creation strategies that effectively convert readers into buyers.",
       "Product reviews remain one of the most powerful content types for affiliate marketing. Effective reviews go beyond basic descriptions to provide genuine insights based on personal experience or thorough research. Structure your reviews with clear pros and cons, specific use cases, and comparisons to alternatives. Include both technical specifications and real-world performance information. Use a consistent rating system to help readers quickly understand your assessment.",

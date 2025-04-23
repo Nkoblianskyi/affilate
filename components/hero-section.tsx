@@ -70,10 +70,10 @@ export default function HeroSection() {
           <AnimateInView animation="slide-left" delay={0.4} className="flex items-center justify-center">
             <div className="relative h-[450px] w-[450px]">
               <Image
-                src="/placeholder.svg?height=450&width=450"
+                src="/meeting.png?height=450&width=450"
                 width={450}
                 height={450}
-                alt="LinkSpark Affiliate Marketing"
+                alt="LinkSparkCo Affiliate Marketing"
                 className="rounded-xl object-cover"
               />
             </div>

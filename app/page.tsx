@@ -18,7 +18,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="flex flex-col items-center">
-      {/* <SEOSchema
+      <SEOSchema
         type="website"
         data={{
           name: "LinkSpark | Affiliate Marketing Made Simple",
@@ -37,7 +37,7 @@ export default function Home() {
           email: "info@linksparkco.com",
           areaServed: "Tel Aviv-Yafo, 6701203, Israel",
         }}
-      /> */}
+      />
 
       <HeroSection />
 

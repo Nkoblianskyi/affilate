@@ -18,20 +18,20 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   if (!post) {
     return {
-      title: "Post Not Found | LinkSpark Blog",
+      title: "Post Not Found | LinkSparkCo Blog",
       description: "The blog post you're looking for could not be found.",
     }
   }
 
   return {
-    title: `${post.title} | LinkSpark Blog`,
+    title: `${post.title} | LinkSparkCo Blog`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,
-      authors: ["LinkSpark Team"],
+      authors: ["LinkSparkCo Team"],
     },
     twitter: {
       card: "summary_large_image",

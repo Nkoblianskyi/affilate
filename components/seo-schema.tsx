@@ -18,7 +18,7 @@ export default function SEOSchema({ type, data }: SEOSchemaProps) {
         description: data.description,
         publisher: {
           "@type": "Organization",
-          name: "LinkSpark",
+          name: "LinkSparkCo",
           logo: {
             "@type": "ImageObject",
             url: data.logoUrl,
@@ -40,7 +40,7 @@ export default function SEOSchema({ type, data }: SEOSchemaProps) {
         },
         publisher: {
           "@type": "Organization",
-          name: "LinkSpark",
+          name: "LinkSparkCo",
           logo: {
             "@type": "ImageObject",
             url: data.logoUrl,
@@ -57,7 +57,7 @@ export default function SEOSchema({ type, data }: SEOSchemaProps) {
       schema = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        name: "LinkSpark",
+        name: "LinkSparkCo",
         url: data.url,
         logo: data.logoUrl,
         sameAs: data.socialLinks,
@@ -79,7 +79,7 @@ export default function SEOSchema({ type, data }: SEOSchemaProps) {
         description: data.description,
         brand: {
           "@type": "Brand",
-          name: "LinkSpark",
+          name: "LinkSparkCo",
         },
         offers: {
           "@type": "Offer",

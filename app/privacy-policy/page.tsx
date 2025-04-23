@@ -2,8 +2,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | LinkSpark",
-  description: "Learn about how LinkSpark collects, uses, and protects your personal information.",
+  title: "Privacy Policy | LinkSparkCo",
+  description: "Learn about how LinkSparkCo collects, uses, and protects your personal information.",
 }
 
 export default function PrivacyPolicyPage() {
@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
       <h1 className="text-3xl font-bold mb-8">Privacy Policy</h1>
 
       <div className="prose max-w-none">
-        <p className="text-lg">Last Updated: April 23, 2023</p>
+        <p className="text-lg">Last Updated: April 23, 2025</p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
         <p>

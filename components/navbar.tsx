@@ -35,7 +35,7 @@ export default function Navbar() {
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] sm:w-[400px]">
               <SheetHeader>
-                <SheetTitle>LinkSpark</SheetTitle>
+                <SheetTitle>LinkSparkCo</SheetTitle>
               </SheetHeader>
               <nav className="flex flex-col gap-4 mt-8">
                 {navigation.map((item) => (
@@ -60,7 +60,7 @@ export default function Navbar() {
           </Sheet>
 
           <Link href="/" className="flex items-center space-x-2">
-            <span className="font-bold text-xl">LinkSpark</span>
+            <span className="font-bold text-xl">LinkSparkCo</span>
           </Link>
         </div>
 

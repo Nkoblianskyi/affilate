@@ -19,24 +19,18 @@ export default function Home() {
         type="website"
         data={{
           name: "LinkSpark | Affiliate Marketing Made Simple",
-          url: "https://linkspark.com",
+          url: "https://linksparkco.com",
           description:
             "Earn money online through affiliate marketing with LinkSpark's innovative platform. Join for free today!",
-          logoUrl: "https://linkspark.com/logo.png",
+          logoUrl: "https://linksparkco.com/logo.png",
         }}
       />
 
       <SEOSchema
         type="organization"
         data={{
-          url: "https://linkspark.com",
+          url: "https://linksparkco.com",
           logoUrl: "https://linkspark.com/logo.png",
-          socialLinks: [
-            "https://facebook.com/linkspark",
-            "https://twitter.com/linkspark",
-            "https://instagram.com/linkspark",
-            "https://linkedin.com/company/linkspark",
-          ],
           email: "info@linkspark.com",
           areaServed: "Tel Aviv-Yafo, 6701203, Israel",
         }}

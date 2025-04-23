@@ -33,7 +33,7 @@ export default function ContactPage() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Take the first step to success with LinkSpark
+                  Take the first step to success with LinkSparkCo
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
                   Are you a blogger or influencer? Do you have a website? If you are a digital publisher - discover how
@@ -47,13 +47,13 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Email</h3>
-                  <p className="text-muted-foreground">info@linkspark.com</p>
+                  <p className="text-muted-foreground">info@linksparkco.com</p>
                 </div>
               </div>
             </div>
             <Card>
               <CardHeader>
-                <CardTitle>Join us today as a LinkSpark publisher!</CardTitle>
+                <CardTitle>Join us today as a LinkSparkCo publisher!</CardTitle>
                 <CardDescription>
                   Discover the best revenue-generating offers and marketing support in the industry!
                 </CardDescription>

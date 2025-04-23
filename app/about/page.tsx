@@ -17,7 +17,7 @@ export default function AboutPage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
             <AnimateInView animation="slide-right" className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">About LinkSpark</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">About LinkSparkCo</h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
                   Revolutionizing affiliate marketing with innovative solutions that empower digital publishers.
                 </p>
@@ -245,10 +245,10 @@ export default function AboutPage() {
           <AnimateInView animation="scale">
             <div className="flex flex-col items-center text-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Ready to Join the LinkSpark Family?
+                Ready to Join the LinkSparkCo Family?
               </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Start your journey with LinkSpark today and discover the potential of affiliate marketing.
+                Start your journey with LinkSparkCo today and discover the potential of affiliate marketing.
               </p>
               <div className="flex items-center justify-center mt-6">
                 <Button size="lg" className="bg-pink-500 hover:bg-pink-600 text-white">

@@ -2,8 +2,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | LinkSpark",
-  description: "Learn about how LinkSpark uses cookies and similar technologies on our website.",
+  title: "Cookie Policy | LinkSparkCo",
+  description: "Learn about how LinkSparkCo uses cookies and similar technologies on our website.",
 }
 
 export default function CookiePolicyPage() {
@@ -12,7 +12,7 @@ export default function CookiePolicyPage() {
       <h1 className="text-3xl font-bold mb-8">Cookie Policy</h1>
 
       <div className="prose max-w-none">
-        <p className="text-lg">Last Updated: April 23, 2023</p>
+        <p className="text-lg">Last Updated: April 23, 2025</p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
         <p>
@@ -106,10 +106,10 @@ export default function CookiePolicyPage() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">7. Where Can You Get Further Information?</h2>
         <p>
           If you have any questions about our use of cookies or other technologies, please email us at
-          info@linkspark.com or by post to:
+          info@linksparkco.com or by post to:
         </p>
         <p className="mt-4">
-          LinkSpark
+          LinkSparkCo
           <br />
           Derech Menachem Begin 121
           <br />

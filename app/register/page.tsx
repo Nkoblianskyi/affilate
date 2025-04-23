@@ -32,7 +32,7 @@ export default function RegisterPage() {
 
         <Card className="w-full">
           <CardHeader>
-            <CardTitle>Join LinkSpark Affiliate Network</CardTitle>
+            <CardTitle>Join LinkSparkCo Affiliate Network</CardTitle>
             <CardDescription>
               Fill out the form below to create your account and start earning with LinkSpark
             </CardDescription>

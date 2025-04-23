@@ -9,28 +9,10 @@ export default function Footer() {
       <div className="container px-4 md:px-6 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">LinkSpark</h3>
+            <h3 className="text-lg font-bold">LinkSparkCo</h3>
             <p className="text-slate-400">
               Empowering digital publishers to maximize their revenue through innovative affiliate marketing solutions.
             </p>
-            <div className="flex space-x-4">
-              <Link href="#" className="text-slate-400 hover:text-white">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="#" className="text-slate-400 hover:text-white">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-slate-400 hover:text-white">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link href="#" className="text-slate-400 hover:text-white">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-            </div>
           </div>
 
           <div className="space-y-4">
@@ -110,7 +92,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-slate-400 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} LinkSpark. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} LinkSparkCo. All rights reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link href="/privacy-policy" className="hover:text-white">
                 Privacy Policy
@@ -118,14 +100,11 @@ export default function Footer() {
               <Link href="/cookies" className="hover:text-white">
                 Cookie Policy
               </Link>
-              <Link href="#" className="hover:text-white">
-                Terms of Service
-              </Link>
             </div>
           </div>
           <div className="mt-4">
             <p>Derech Menachem Begin 121, Tel Aviv-Yafo, 6701203, Israel</p>
-            <p>info@linkspark.com</p>
+            <p>info@linksparkco.com</p>
           </div>
         </div>
       </div>

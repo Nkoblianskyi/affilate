@@ -1,9 +1,7 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
-import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -11,8 +9,8 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 
 export default function ContactPage() {
-  const router = useRouter()
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showSuccess, setShowSuccess] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -21,7 +19,9 @@ export default function ContactPage() {
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false)
-      router.push("/contact/success")
+      setShowSuccess(true)
+      // Hide the popup after 3 seconds
+      setTimeout(() => setShowSuccess(false), 3000)
     }, 1500)
   }
 
@@ -88,9 +88,16 @@ export default function ContactPage() {
                     <Label htmlFor="message">Message</Label>
                     <Textarea id="message" placeholder="Your message" className="min-h-[150px]" required />
                   </div>
-                  <Button type="submit" className="w-full bg-pink-500 hover:bg-pink-600" disabled={isSubmitting}>
-                    {isSubmitting ? "Sending..." : "Send message →"}
-                  </Button>
+                  <div className="relative">
+                    <Button type="submit" className="w-full bg-pink-500 hover:bg-pink-600" disabled={isSubmitting}>
+                      {isSubmitting ? "Sending..." : "Send message →"}
+                    </Button>
+                    {showSuccess && (
+                      <div className="absolute right-0 mt-2 p-2 bg-green-100 text-green-800 rounded shadow">
+                        Message Sent!
+                      </div>
+                    )}
+                  </div>
                 </form>
               </CardContent>
             </Card>

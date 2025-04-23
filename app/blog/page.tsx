@@ -30,7 +30,7 @@ export default function BlogPage() {
       <section className="w-full py-12 md:py-16 lg:py-20 bg-slate-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center text-center space-y-4 mb-8">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">LinkSpark Blog</h1>
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">LinkSparkCo Blog</h1>
             <p className="max-w-[700px] text-muted-foreground md:text-xl">
               Insights, tips, and strategies to help you succeed in affiliate marketing.
             </p>
@@ -72,7 +72,7 @@ export default function BlogPage() {
               // Create different sized cards for a more chaotic layout
               const isWide = index % 5 === 0
               const isTall = index % 7 === 0
-              const colSpan = isWide ? "md:col-span-8" : "md:col-span-4"
+              const colSpan = isWide ? "md:col-span-11" : "md:col-span-6"
               const rowSpan = isTall ? "md:row-span-2" : ""
 
               return (

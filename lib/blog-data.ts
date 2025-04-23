@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "monetization-strategies",
     title: "10 Proven Monetization Strategies for Content Creators",
-    date: "May 22, 2025",
+    date: "April 22, 2025",
     readingTime: 6,
     excerpt: "Discover effective ways to monetize your content and diversify your income streams as a digital creator.",
     coverImage: "/placeholder.svg?height=400&width=600",
@@ -55,7 +55,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "traffic-generation",
     title: "7 Effective Traffic Generation Techniques for Affiliate Marketers",
-    date: "June 10, 2025",
+    date: "February 10, 2025",
     readingTime: 7,
     excerpt:
       "Learn how to drive targeted traffic to your affiliate offers with these proven techniques that work in today's digital landscape.",
@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "conversion-optimization",
     title: "Conversion Rate Optimization: Turning Visitors into Customers",
-    date: "July 5, 2025",
+    date: "March 5, 2025",
     readingTime: 9,
     excerpt:
       "Discover proven strategies to optimize your conversion rates and maximize your affiliate marketing revenue.",
@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "seo-tips",
     title: "SEO Fundamentals for Affiliate Marketers: Ranking Higher and Driving Traffic",
-    date: "August 18, 2025",
+    date: "February 18, 2025",
     readingTime: 10,
     excerpt:
       "Master the essential SEO techniques that will help your affiliate content rank higher in search engines and attract more targeted traffic.",
@@ -120,7 +120,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "affiliate-marketing-mistakes",
     title: "Common Affiliate Marketing Mistakes and How to Avoid Them",
-    date: "September 30, 2025",
+    date: "April 30, 2025",
     readingTime: 8,
     excerpt:
       "Learn about the pitfalls that many affiliate marketers face and discover strategies to overcome these challenges for greater success.",
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "content-creation-strategies",
     title: "Content Creation Strategies That Drive Affiliate Sales",
-    date: "October 25, 2025",
+    date: "March 25, 2025",
     readingTime: 7,
     excerpt:
       "Discover effective content creation approaches that engage your audience and naturally lead to affiliate conversions.",

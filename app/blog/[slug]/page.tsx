@@ -62,9 +62,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               </Button>
 
               <article itemScope itemType="https://schema.org/BlogPosting">
-                <meta itemProp="publisher" content="LinkSpark" />
+                <meta itemProp="publisher" content="LinkSparkCo" />
                 <meta itemProp="datePublished" content={post.date} />
-                <meta itemProp="author" content="LinkSpark Team" />
+                <meta itemProp="author" content="LinkSparkCo Team" />
 
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4" itemProp="headline">
                   {post.title}

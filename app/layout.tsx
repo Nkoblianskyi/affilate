@@ -10,13 +10,13 @@ import CookieConsent from "@/components/cookie-consent"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LinkSpark | Affiliate Marketing Made Simple",
+  title: "LinkSparkCo | Affiliate Marketing Made Simple",
   description:
     "Earn money online through affiliate marketing with LinkSpark's innovative platform. Join for free today!",
-  keywords: ["affiliate marketing", "make money online", "passive income", "digital marketing", "LinkSpark"],
-  authors: [{ name: "LinkSpark Team" }],
-  creator: "LinkSpark",
-  publisher: "LinkSpark",
+  keywords: ["affiliate marketing", "make money online", "passive income", "digital marketing", "LinkSparkCo"],
+  authors: [{ name: "LinkSparkCo Team" }],
+  creator: "LinkSparkCo",
+  publisher: "LinkSparkCo",
   formatDetection: {
     email: false,
     address: false,
@@ -25,18 +25,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://linkspark.com",
-    title: "LinkSpark | Affiliate Marketing Made Simple",
+    url: "https://LinkSparkCo.com",
+    title: "LinkSparkCo | Affiliate Marketing Made Simple",
     description:
-      "Earn money online through affiliate marketing with LinkSpark's innovative platform. Join for free today!",
-    siteName: "LinkSpark",
+      "Earn money online through affiliate marketing with LinkSparkCo's innovative platform. Join for free today!",
+    siteName: "LinkSparkCo",
   },
   twitter: {
     card: "summary_large_image",
-    title: "LinkSpark | Affiliate Marketing Made Simple",
+    title: "LinkSparkCo | Affiliate Marketing Made Simple",
     description:
-      "Earn money online through affiliate marketing with LinkSpark's innovative platform. Join for free today!",
-    creator: "@linkspark",
+      "Earn money online through affiliate marketing with LinkSparkCo's innovative platform. Join for free today!",
+    creator: "@LinkSparkCo",
   },
 }
 
@@ -48,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://linkspark.com" />
+        <link rel="canonical" href="https://linksparkco.com" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>

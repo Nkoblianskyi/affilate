@@ -1,9 +1,18 @@
+'use client'
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { useState } from "react"
 
 export default function Footer() {
+  const [subscribed, setSubscribed] = useState(false)
+
+  const handleSubscribe = () => {
+    // Тут можна додати реальний запит на бекенд або сервіс пошти
+    setSubscribed(true)
+    setTimeout(() => setSubscribed(false), 4000)
+  }
   return (
     <footer className="bg-slate-900 text-slate-200">
       <div className="container px-4 md:px-6 py-12 md:py-16">
@@ -81,9 +90,20 @@ export default function Footer() {
             <h3 className="text-lg font-bold">Subscribe</h3>
             <p className="text-slate-400">Subscribe to our newsletter to receive updates and marketing tips.</p>
             <div className="flex space-x-2">
-              <Input type="email" placeholder="Your email" className="bg-slate-800 border-slate-700 text-white" />
-              <Button className="bg-pink-500 hover:bg-pink-600">Subscribe</Button>
+              <Input
+                type="email"
+                placeholder="Your email"
+                className="bg-slate-800 border-slate-700 text-white"
+              />
+              <Button className="bg-pink-500 hover:bg-pink-600" onClick={handleSubscribe}>
+                Subscribe
+              </Button>
             </div>
+
+            {subscribed && (
+              <p className="text-green-400 text-sm">Thanks for subscribing!🎉</p>
+            )}
+
             <p className="text-xs text-slate-400">
               By subscribing, you agree to our Privacy Policy and Terms of Service.
             </p>

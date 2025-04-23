@@ -130,7 +130,7 @@ export default function PrivacyPolicyPage() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">10. Contact Information</h2>
         <p>To ask questions or comment about this privacy policy and our privacy practices, contact us at:</p>
         <p className="mt-4">
-          <strong>Email:</strong> info@linkspark.com
+          <strong>Email:</strong> info@linksparkco.com
           <br />
           <strong>Address:</strong> Derech Menachem Begin 121, Tel Aviv-Yafo, 6701203, Israel
         </p>

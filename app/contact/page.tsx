@@ -37,7 +37,7 @@ export default function ContactPage() {
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
                   Are you a blogger or influencer? Do you have a website? If you are a digital publisher - discover how
-                  to grow your sales from your existing audience with LinkSpark.
+                  to grow your sales from your existing audience with LinkSparkСo.
                 </p>
               </div>
               <div className="space-y-4">

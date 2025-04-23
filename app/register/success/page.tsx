@@ -9,7 +9,7 @@ export default function RegistrationSuccessPage() {
         <CheckCircle className="mx-auto h-16 w-16 text-green-500" />
         <h1 className="text-3xl font-bold">Registration Successful!</h1>
         <p className="text-lg text-muted-foreground">
-          Thank you for joining LinkSpark! Your account has been created successfully.
+          Thank you for joining LinkSparkCo! Your account has been created successfully.
         </p>
         <p className="text-muted-foreground">
           We've sent a confirmation email to your inbox. Please check your email and follow the instructions to verify

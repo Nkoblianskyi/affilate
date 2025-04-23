@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -11,8 +12,10 @@ import AnimateInView from "@/components/animate-in-view"
 import StaggerContainer from "@/components/stagger-container"
 import StaggerItem from "@/components/stagger-item"
 import Image from "next/image"
+import { useState } from "react"
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="flex flex-col items-center">
       <SEOSchema
@@ -109,11 +112,11 @@ export default function Home() {
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                   <div className="flex items-center justify-between">
-                    <div className="text-white">
-                      <p className="font-semibold">Average Affiliate Earnings</p>
-                      <p className="text-2xl font-bold">$1,000 - $10,000/month</p>
-                    </div>
-                    <div className="bg-pink-500 text-white px-4 py-2 rounded-full text-sm font-bold">No Limits!</div>
+                    <Button asChild className="w-full bg-pink-500 hover:bg-pink-600">
+                      <Link href="/register" onClick={() => setIsOpen(false)}>
+                        Register
+                      </Link>
+                    </Button>
                   </div>
                 </div>
               </div>

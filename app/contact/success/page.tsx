@@ -8,7 +8,7 @@ export default function ContactSuccessPage() {
       <div className="max-w-md w-full space-y-8 text-center">
         <CheckCircle className="mx-auto h-16 w-16 text-green-500" />
         <h1 className="text-3xl font-bold">Message Sent!</h1>
-        <p className="text-lg text-muted-foreground">Thank you for contacting LinkSpark!</p>
+        <p className="text-lg text-muted-foreground">Thank you for contacting LinkSparkCo!</p>
         <p className="text-muted-foreground">
           We've received your message and will get back to you as soon as possible. Our team typically responds within
           24-48 business hours.
